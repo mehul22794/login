@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url(https://img.freepik.com/free-vector/branding-identity-corporate-vector-logo-r-design_460848-10165.jpg?w=740&t=st=1706859184~exp=1706859784~hmac=889d3449b866e1fb39e94afe1a083a9b5ef3cf0c50a0717b426c3fc4c6a0601f);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     
+}
+
+.form-tag{
+    flex-grow: 1;
+}
+
+.center{
+    width: 350px;
+    height: 450px;
+    box-shadow: -5px 5px 10px 0px rgba(0,0,0,0,2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    backdrop-filter: blur(20px);
+    text-transform: capitalize;
+
+}
+h1{
+    margin-top: 30px;
+    width: 50%;
+    color: rgb(46, 236, 236);
+}
+input{
+    width: 80%;
+    height: 14%;
+    background: none;
+    margin-top: 10px;
+    border: none;
+    border-bottom: solid 1px rgb(236, 227, 227);
+    font-size: 15px;
+    padding-left: 10px;
+    outline: none;
+    color: white;
+
+}
+.submit-button{
+    width: 120px;
+    height: 35px;
+    margin-top: 10px;
+    border:none;
+    font-size: 15px;
+    border-radius:20px 10px;
+    background-color: #0c0c04;
+    color: white
+}
+.login-with{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    margin-top: 10px;
+    width: 130px;
+    height: 35px;
+    margin-top: 10px;
+    border:none;
+    font-size: 15px;
+    border-radius: 10px;
+    outline: none;
+}
+.Fb{
+    background-color: #0c5fe4;
+    color: rgb(250, 243, 243);
+    
+
+    
+}
+.ggl{
+     background-color: #d3574c;
+     color: white;
+}
+@media (max-widht:800px){
+    .center{
+        width: 350px;
+        height: 450px;
+    }
+}
